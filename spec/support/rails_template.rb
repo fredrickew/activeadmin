@@ -96,9 +96,9 @@ directory File.expand_path("templates/admin", __dir__), "app/admin"
 # Add predefined policies
 directory File.expand_path("templates/policies", __dir__), "app/policies"
 
-# Require turbolinks if necessary
-if ENV["BUNDLE_GEMFILE"] == File.expand_path("../../gemfiles/rails_61_turbolinks/Gemfile", __dir__)
-  append_file "app/assets/javascripts/active_admin.js", "//= require turbolinks\n"
+# Require turbo if necessary
+if ENV["BUNDLE_GEMFILE"] == File.expand_path("../../gemfiles/rails_61_turbo/Gemfile", __dir__)
+  append_file "app/assets/javascripts/active_admin.js", "//= require turbo\n"
 end
 
 if ENV["RAILS_ENV"] != "test"

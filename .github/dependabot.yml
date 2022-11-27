@@ -28,7 +28,7 @@ updates:
     versioning-strategy: lockfile-only
 
   - package-ecosystem: bundler
-    directory: /gemfiles/rails_61_turbolinks
+    directory: /gemfiles/rails_61_turbo
     schedule:
       interval: daily
     versioning-strategy: lockfile-only

@@ -51,7 +51,7 @@
 
 ### Enhancements
 
-* Add turbolinks support to has many js. [#7384] by [@amiel]
+* Add turbo support to has many js. [#7384] by [@amiel]
 
 ### Documentation
 
@@ -252,7 +252,7 @@
 * Fix crash when displaying current filters after filtering by a nested resource. [#5816] by [@deivid-rodriguez]
 * Fix pagination when `pagination_total` is false to not show a "Last" link, since it's incorrect because we don't have the total pages information. [#5822] by [@deivid-rodriguez]
 * Fix optional nested resources causing incorrect routes to be generated, when renamed resources (through `:as` option) are involved. [#5826] by [@ndbroadbent], [@Kris-LIBIS] and [@deivid-rodriguez]
-* Fix double modal issue in applications using turbolinks 5. [#5842] by [@sgara]
+* Fix double modal issue in applications using turbo 5. [#5842] by [@sgara]
 
 ## 2.2.0 [☰](https://github.com/activeadmin/activeadmin/compare/v2.1.0..v2.2.0)
 

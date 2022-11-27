@@ -21,7 +21,7 @@ group :development, :test do
   gem "sprockets-rails"
   gem "sassc-rails"
 
-  gem "turbolinks"
+  gem "turbo"
 end
 
 group :test do

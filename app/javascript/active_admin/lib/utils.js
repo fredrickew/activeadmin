@@ -1,10 +1,10 @@
-function hasTurbolinks() {
-  return (typeof Turbolinks !== 'undefined' && Turbolinks.supported);
+function hasturbo() {
+  return (typeof turbo !== 'undefined' && turbo.supported);
 }
 
-function turbolinksVisit(params) {
+function turboVisit(params) {
   const path = [window.location.pathname, '?', toQueryString(params)].join('')
-  Turbolinks.visit(path);
+  turbo.visit(path);
 }
 
 function queryString() {
@@ -32,8 +32,8 @@ function toQueryString(params) {
 }
 
 export {
-  hasTurbolinks,
-  turbolinksVisit,
+  hasturbo,
+  turboVisit,
   queryString,
   queryStringToParams,
   toQueryString
